@@ -1,48 +1,92 @@
-SnapCart is a modern, open-source headless e-commerce API built with Go. It is designed to power JAMstack and serverless architectures by providing a flexible backend that manages products, users, orders, payments, and discounts — all exposed via a secure REST API.
+# SnapCart
+SnapCart is a modern, responsive shopping cart application that allows users to browse products, add them to the cart, manage quantities, and complete checkout. Built with a focus on performance and user experience, SnapCart is ideal for small to medium-sized online stores.
 
-Originally developed by Netlify as GoCommerce, this project is ideal for developers looking to:
+## 🚀 Features
+- 🛍️ Browse a list of products with images and prices
+- ➕ Add products to the shopping cart
+- 🔄 Update quantities and remove items from the cart
+- 💳 Simulated checkout process
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- ⚡ Fast and smooth user experience
 
-Integrate e-commerce functionality into static or frontend-heavy apps
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap
+- **Backend:** Flask / Node.js / Django (update based on your project)
+- **Database:** SQLite / MySQL / MongoDB (update based on your project)
+- **Other Tools:** Git, GitHub
 
-Use custom UIs (React, Next.js, Vue, etc.) with a powerful backend
+## 📸 Screenshots
+![Home Page](screenshots/home.png)
+![Cart Page](screenshots/cart.png)
+![Checkout Page](screenshots/checkout.png)
 
-Deploy to cloud-native or serverless platforms (like Netlify, Vercel, or Azure)
+## 📦 Installation
+1. **Clone the repository**
+```bash
+git clone https://github.com/Sadiyakhan09/SnapCart.git
+````
 
-✨ Features
-🛍️ Product & Inventory Management
+2. **Navigate to the project directory**
+```bash
+cd SnapCart
+```
 
-🧑‍💻 User Accounts & Authentication (JWT)
+3. **Install dependencies**
+For Python (Flask):
+```bash
+pip install -r requirements.txt
+```
 
-🧾 Order Processing
+For Node.js:
+```bash
+npm install
+```
 
-💸 Payment Support (Stripe, PayPal-ready)
+4. **Run the application**
 
-🎟️ Coupon/Discount System
+For Flask:
+```bash
+python app.py
+```
 
-🧩 RESTful API with JSON responses
+For Node.js:
+```bash
+npm start
+```
 
-🛠️ Easy integration with frontend frameworks
+5. **Open in browser**
+Go to: [http://localhost:5000](http://localhost:5000) or [http://localhost:3000](http://localhost:3000) depending on your backend.
 
-🐳 Docker & PostgreSQL setup included
+## 📂 Project Structure
 
-🔒 Secure token-based access
+SnapCart/
+├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── templates/
+│   ├── index.html
+│   ├── cart.html
+│   └── checkout.html
+├── app.py / server.js
+├── requirements.txt / package.json
+└── README.md
+```
 
-🔧 Tech Stack
-Language: Go (Golang)
+## 💡 How to Use
+1. Browse products on the homepage.
+2. Click "Add to Cart" on products you like.
+3. View your cart, update quantities, or remove items.
+4. Proceed to checkout and complete your order.
 
-Database: PostgreSQL
+## 🧑‍💻 Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements.
 
-Containerized: Docker + Docker Compose
 
-API Style: REST
 
-Deployment: Cloud-native, Netlify functions compatible
+## 🙌 Acknowledgments
+* Bootstrap for UI components
+* Font Awesome for icons
+* \[Add any other libraries or tools you used]
 
-💡 Use Cases
-Static e-commerce sites (Gatsby, Hugo, etc.)
-
-Custom storefronts with React, Next.js, Vue
-
-Mobile app backends
-
-MVPs and startups needing fast e-commerce APIs
+⭐ If you like this project, don’t forget to **star** the repo!
